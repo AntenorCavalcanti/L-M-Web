@@ -30,16 +30,6 @@
     border-radius: 4px;
 }
 
-.cadastroInputs{
-    height: 6%;
-    width: 70%;
-    border: none;
-    background-color: #dedede;
-    color:#000000;
-    border-radius: 5px;
-    text-indent: 10%;
-}
-
 .botaoCadastrar{
     height: 7%;
     width: 55%;
@@ -73,6 +63,7 @@
     margin-top: 5%;
     font-size: smaller;
     color: rgb(97, 97, 97);
+    border-bottom: #000000 solid 1px;
 }
 #linkLogin:hover{
     color: #32bbff;
