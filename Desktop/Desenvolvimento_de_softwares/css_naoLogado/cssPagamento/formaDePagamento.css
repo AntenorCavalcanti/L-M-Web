@@ -1,0 +1,23 @@
+.btnFormaDePagamento{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    min-width: 250px;
+    padding: 12px 20px;
+}
+
+.paymentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    min-height: 100vh;
+    margin: 0;
+    gap: 10px;
+}
+
+.mainH1{
+    font-size: 40px;
+    padding-bottom: 50px;
+}

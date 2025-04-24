@@ -1,0 +1,19 @@
+.formPagamento{
+    max-width: 600px;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaço entre os campos */
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo (form + botão) */
+    padding: 20px;
+    background-color: #F4F4F4;
+}
+
+h1{
+    font-size: 40px;
+}
