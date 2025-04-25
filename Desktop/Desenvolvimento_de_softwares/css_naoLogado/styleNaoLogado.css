@@ -1,3 +1,9 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .sobre-nos-container {
     display: flex;
     flex-direction: column;
@@ -8,8 +14,6 @@
 .sobre-nos-content {
     width: auto;
 }
-
-
 
 #container-home {
     display: flex;
@@ -32,6 +36,7 @@
 #sobre-nos {
     height: 88vh;
     display: flex;
+    width: 80vw;
 }
 
 
