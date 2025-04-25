@@ -1,3 +1,23 @@
+.sobre-nos-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sobre-nos-content {
+    width: auto;
+}
+
+
+
+#container-home {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
 #home {
     display: flex;
     flex-direction: column;
@@ -8,4 +28,11 @@
     background-size: cover;
     background-position: center;
 }
+
+#sobre-nos {
+    height: 88vh;
+    display: flex;
+}
+
+
 

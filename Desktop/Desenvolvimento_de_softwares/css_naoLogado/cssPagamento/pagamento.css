@@ -7,9 +7,10 @@
 body {
     background-color:#EBEBEB;
     font-family: Arial, Helvetica, sans-serif;
-}
-.formulario {                                                                 
-    max-width:500px;
+}                                                              
+.formulario {
+    background-color: #32bbff;
+    max-width: 500px;
     margin: auto;
     padding: 90px;
     background-color:#FFFFFF;
