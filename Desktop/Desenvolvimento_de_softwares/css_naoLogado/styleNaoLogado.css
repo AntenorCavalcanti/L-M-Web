@@ -4,6 +4,19 @@
     align-items: center;
 }
 
+.container-subsections {
+    height: 77vh;
+    display: flex;
+    width: 80vw;
+}
+
+.ad-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .sobre-nos-container {
     display: flex;
     flex-direction: column;
@@ -13,6 +26,8 @@
 
 .sobre-nos-content {
     width: auto;
+    display: flex;
+    justify-content: center;
 }
 
 #container-home {
@@ -33,11 +48,8 @@
     background-position: center;
 }
 
-#sobre-nos {
-    height: 88vh;
-    display: flex;
-    width: 80vw;
+#banner {
+    
 }
-
 
 
