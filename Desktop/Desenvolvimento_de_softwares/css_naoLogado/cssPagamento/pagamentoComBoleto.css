@@ -1,15 +1,15 @@
 .formPagamento{
     max-width: 600px;
-    margin: 0 auto; /* Centraliza horizontalmente */
+    margin: 0 auto;
     padding: 10px;
     display: flex;
     flex-direction: column;
-    gap: 15px; /* Espaço entre os campos */
+    gap: 15px;
 }
 section {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centraliza o conteúdo (form + botão) */
+    align-items: center; 
     padding: 20px;
     background-color: #F4F4F4;
 }
