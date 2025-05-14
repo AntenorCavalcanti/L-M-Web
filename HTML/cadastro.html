@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name "viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../css_naoLogado/styleAutenticacao.css">
+    <link rel="stylesheet" href="../css_naoLogado/styleGeneral.css">
+    <link rel="shortcut icon" href="../Images/livro.png">
+</head>
+<body>
+    <header>
+        <img src="../Images/logo.png" alt="">
+        <nav>
+            <ul>
+               <li><a class="link" id="link2" href="../HTML/cadastro.html">Home</a></li>
+               <li><a class="link" id="link2" href="">Sobre Nós</a></li>
+               <li><a class="link" id="link2" href="">Preços</a></li>
+               <li><a class="link" id="link2" href="">Contatos</a></li>
+            </ul>
+       </nav>
+       <div>
+            <a href="./login.html" id="sign-in" class="link">Entrar</a>
+            <a href="./cadastro.html" id="sign-up" class="link">Cadastrar</a>
+       </div>
+   </header>
+    <section class="container">
+        <div class="textoCadastro">
+            <h1><blue>CADASTRO</blue></h1>
+        </div>
+        <div class="background_cadastro">
+            <h4>Nome:</h4>
+            <input type="text" class = "inputs" id = "nomeInput">
+            
+            <h4>Cpf:</h4>
+            <input type="text" class = "inputs" id = "cpfInput">
+            
+            <h4>Email:</h4>
+            <input type="email" class = "inputs" id = "emailInput">
+            
+            <h4>Senha:</h4>
+            <input type="password" class = "inputs" id = "senhaInput">
+            
+            <h4>Confirmar Senha:</h4>
+            <input type="password" class = "inputs" id = "confirmarSenhaInput">
+    
+            <button class="botao" id="cadastroBtn">CADASTRAR</button>
+            <a class="underline link" href="/HTML/login.html">Já possuo conta!</a>
+        </div>
+    </section>    
+    <script src="../js/script.js"></script>
+</body>
+</html>
