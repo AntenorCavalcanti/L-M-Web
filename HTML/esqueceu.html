@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name "viewport" content="width=device-width, initial-scale=1.0">
     <title>ESQUECI A</title>
-    <link rel="stylesheet" href="../css_naoLogado/styleEsqueceu.css">
     <link rel="stylesheet" href="../css_naoLogado/styleGeneral.css">
+    <link rel="stylesheet" href="../css_naoLogado/styleAutenticacao.css">
     <link rel="shortcut icon" href="../Images/livro.png">
 </head>
 <body>
@@ -18,19 +18,17 @@
             </ul>
         </nav>
     </header>
-    <div class="textoEsqueceu">
-        <h1>ESQUECI MINHA SENHA</h1>
-    </div>
-
-    <section class='container'>
-        <div class="background_esqueceu">
-            
-            <h4>E-mail</h4>
-            <input type="email" class = "esqueceuInputs" id = "emailInput">
-        
-            <button class="botaoCadastrar">ENVIAR</button>
-            <p>© 2025 - L&M</p>
+    
+    <section class="container">
+        <div class="titulo-autenticacao">
+            <h1><blue>ESQUECI MINHA SENHA</blue><h1/>
         </div>
+        <form class="container-esqueceu" id="formEsqueceu">
+            <label for="emailInput" class="titulo-inputs">Email</label>
+            <input type="email" class="inputs" id="esqueceuInput" name="email" required>
+            <button type="submit" class="botao" id="loginBtn">Enviar</button>
+            <p>© 2025 - L&M</p>
+        </form>
     </section>    
 </body>
 </html>
