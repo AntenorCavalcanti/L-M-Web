@@ -4,38 +4,48 @@
     <meta charset="UTF-8">
     <meta name "viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="../css_naoLogado/styleLogin.css">
+    <link rel="stylesheet" href="../css_naoLogado/styleAutenticacao.css">
     <link rel="stylesheet" href="../css_naoLogado/styleGeneral.css">
     <link rel="shortcut icon" href="../Images/livro.png">
 </head>
 <body>
     <header>
-         <nav>
-            <img src="../Images/logo.png" alt="">
+        <img src="../Images/logo.png" alt="">
+        <nav>
             <ul>
-                <li><a class="link" id="link1" href="../HTML/cadastro.html">Cadastro</a></li>
-                <li><a class="link" id="link2">Sobre Nós</a></li>
+               <li><a class="link" id="link2" href="../HTML/cadastro.html">Home</a></li>
+               <li><a class="link" id="link2" href="">Sobre Nós</a></li>
+               <li><a class="link" id="link2" href="">Preços</a></li>
+               <li><a class="link" id="link2" href="">Contatos</a></li>
             </ul>
-        </nav>
-    </header>
+       </nav>
+       <div>
+            <a href="./login.html" id="sign-in" class="link">Entrar</a>
+            <a href="./cadastro.html" id="sign-up" class="link">Cadastrar</a>
+       </div>
+   </header>
     
-    <section class='container'>
-        <div class="textoLogin">
-            <h1><blue>LOGIN</blue></h1>
+    <section class="container">
+        <div class="titulo-autenticacao">
+            <h1><blue>LOGIN</blue><h1/>
         </div>
 
-        <div class="background_login">
-            <h1>Email:</h1>
-            <input type="email" class = "inputs" id = "emailInput">
-            
-            <h1>Senha:</h1>
-            <input type="password" class = "inputs" id = "senhaInput">
-            <a class="link" id="linkEsqueci" href="./esqueceu.html">Esqueci minha senha</a>
-            <button class="botao" id="loginBtn">Entrar</button>
+        <form class="container-login" id="formLogin">
+            <label for="emailInput" class="titulo-inputs">Email</label>
+            <input type="email" class="inputs" id="emailInput" name="email" required>
+
+            <label for="senhaInput" class="titulo-inputs">Senha</label>
+            <input type="password" class="inputs" id="senhaInput" name="senha" required>
+
+            <a class="link underline" id="linkEsqueci" style="margin-top: 10px; margin-bottom: 10px;" href="./esqueceu.html">Esqueci minha senha</a>
+
+            <button type="submit" class="botao" id="loginBtn">Entrar</button>
+
             <p style="margin-top: 10px; margin-bottom: 0px;">Ainda não possui uma conta?</p> 
-            <a href="" class="link" style="text-align: center; text-decoration: underline; font-size: 14px;">Cadastre-se</a>
+            <a href="/HTML/cadastro.html" class="link" style="text-align: center; text-decoration: underline; font-size: 14px;">Cadastre-se</a>
+
             <p>© 2025 - L&M</p>
-        </div>
+        </form>
     </section>
     <script src="../js/script.js"></script>    
 </body>
